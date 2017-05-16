@@ -1,0 +1,20 @@
+.axis path,
+.axis line {
+  fill: none;
+  stroke: black;
+  shape-rendering: crispEdges;
+}
+
+.axis text {
+  font-family: Roboto;
+  font-size: 12px;
+}
+
+.timeline-label {
+  font-family: Roboto;
+  font-size: 12px;
+}
+    
+.coloredDiv {
+  height:20px; width:20px; float:left;
+}

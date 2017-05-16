@@ -1,0 +1,295 @@
+# Page settings
+
+languageCode = "en-us"
+title = "Lorenzo Rossi Resume"
+theme = "hugo-orbit-theme"
+googleAnalytics = "UA-XXXXXXX-Y"
+publishDir = "docs"
+
+# Do not build files for websites. Need them? Set to false
+disableRSS = true
+disableSitemap = true
+disable404 = true
+
+[params]
+
+# Meta
+    description = "Hugo Responsive Resume/CV Theme for Developers"
+    author = "Pavel Kanyshev"
+
+# Theme styles
+
+    styles = "styles-6.css"
+
+# Sidebar sections
+
+    # Profile section
+    [params.profile]
+        name = "Lorenzo Rossi"
+        tagline = "Data Scientist"
+        avatar = "profile.png"
+
+    # Contact section
+    [params.contact]
+        enable = true
+        title = "Contacts"
+
+        # [[params.contact.list]]
+        # class = "email"
+        # icon = "fa-envelope"
+        # url = "mailto: lorereds@gmail.com"
+        # title = "lorereds@gmail.com"
+
+        [[params.contact.list]]
+        class = "linkedin"
+        icon = "fa-linkedin"
+        url = "//linkedin.com/in/lorenzorossi88"
+        title = "lorenzorossi88"
+
+        [[params.contact.list]]
+        class = "github"
+        icon = "fa-github"
+        url = "//github.com/rossilorenzo"
+        title = "rossilorenzo"
+
+        [[params.contact.list]]
+        class = "twitter"
+        icon = "fa-twitter"
+        url = "//twitter.com/lorenzorossi_88"
+        title = "@lorenzorossi_88"
+
+    # Languages section
+    [params.languages]
+        enable = true
+        title = "Languages"
+
+        [[params.languages.list]]
+        language = "Italian"
+        level = "100%"
+
+        [[params.languages.list]]
+        language = "English"
+        level = "90%"
+
+        [[params.languages.list]]
+        language = "French"
+        level = "50%"
+
+    # Awards section
+    [params.awards]
+        enable = true
+        title = "Awards"
+
+        [[params.awards.list]]
+        award = "Data Storytelling Awards 2016"
+        sub_line = "Shortlisted in the categories: “Data-driven business” & “Data interpretation/extraction”"
+
+        [[params.awards.list]]
+        award = "Forward3D Awards 2016"
+        sub_line = "Winner in the category: “Best efficiency”"
+
+        [[params.awards.list]]
+        award = "Kent SMSAS School Prize 2013"
+        sub_line = "Award for academic distinction"
+
+
+    # Interests section
+    [params.interests]
+        enable = true
+        title = "Interests"
+
+        [[params.interests.list]]
+        interest = "Fencing"
+        sub_line = "BUCS UK champion 2013; Represented Italy in U20 and Senior World Cups."
+
+        [[params.interests.list]]
+        interest = "Football / Sports"
+        sub_line = "Fiorentina fan and fantasy premier league player. Big lover of live sport events and been as a spectator to the last 2 Olympic games"
+
+        [[params.interests.list]]
+        interest = "Raspberry Pi"
+        sub_line = "Multiple Raspberry Pis owner and keen experimenter in the free time."
+
+    # Map of locations
+    [params.map]
+        enable = true
+        title = "My Map"
+
+# Main body sections
+
+    # Summary section
+    [params.summary]
+        enable = true
+        icon = "fa-user"
+        title = "Career Profile"
+        summary = "Experienced data scientist with a demonstrated history of working in the digital marketing and advertisement industry, with a special focus on attribution modeling and measurement.<br><br>Skilled in R, SQL, statistics and machine learning on large datasets, extracting useful, actionable insights and presenting those insights to stakeholders with 'business friendly' presentations, dashboards and automated reports."
+
+    # Experiences section
+    [params.experiences]
+        enable = true
+        icon = "fa-briefcase"
+        title = "Work Experience"
+        intro = "I joined Forward3D, straight after finishing my M.Sc., as the first hire into the team which has since developed into the Data Science department. During those years I contributed in growing the offer, the visibility inside the company and the size of the Data Science team, leading the technical capabilities forward and driving innovation and product development.<br><br>An example of this is the dynamic weighting attribution model that I ideated, implemented and productized and that is currently an unique selling point for the company and it is consistently pitched and used for all the Forward3D clients."
+
+        [[params.jobs.list]]
+        position = "Principal Data Scientist"
+        dates = "01/05/2017"
+        long_dates = "May 2017 - Present"
+        company = "Forward3D, London"
+        color = "#6C92A3"
+
+        [[params.jobs.list]]
+        position = "Data Science Consultant"
+        dates = "01/10/2015"
+        long_dates = "October 2015 - May 2017"
+        company = "Forward3D, London/Dublin"
+        color = "#A2BCE0"
+
+        [[params.jobs.list]]
+        position = "Senior Data Scientist"
+        dates = "01/01/2015"
+        long_dates = "January 2015 - October 2015"
+        company = "Forward3D, London"
+        color = "#4CD3CC"
+
+        [[params.jobs.list]]
+        position = "Data Scientist"
+        dates = "01/03/2014"
+        long_dates = "March 2014 - January 2015"
+        company = "Forward3D, London"
+        color = "#1DBA90"
+
+        [[params.jobs.list]]
+        position = "Junior Data Analyst"
+        dates = "01/09/2013"
+        long_dates = "September 2013 - March 2014"
+        company = "Forward3D, London"
+        color = "#1E6262"
+
+    # Education section
+    [params.education]
+        enable = true
+        icon = "fa-university"
+        title = "Education"
+
+        [[params.education.list]]
+        degree = "M.Sc. Statistics with Finance"
+        dates = "September 2012 - September 2013"
+        college = "University of Kent, Canterbury (UK)"
+
+        [[params.education.list]]
+        degree = "B.Sc. Mathematics"
+        dates = "September 2006 - July 2012"
+        college = "University of Pisa, Pisa (IT)"
+
+    # Technical Skills
+    [params.skills]
+        enable = true
+        icon = "fa-rocket"
+        title = "Programming Skills"
+
+        [[params.skills.list]]
+        skill = "R"
+        level = "98%"
+        icon = "fa-thumbs-up"
+                
+        [[params.skills.list]]
+        skill = "Shiny & RMarkdown"
+        level = "98%"
+        icon = "fa-television"
+
+        [[params.skills.list]]
+        skill = "SQL & Presto"
+        level = "96%"
+        icon = "fa-search"
+
+        [[params.skills.list]]
+        skill = "HighCharts"
+        level = "85%"
+        icon = "fa-line-chart"
+
+        [[params.skills.list]]
+        skill = "Git"
+        level = "81%"
+        icon = "fa-code-fork"
+
+        [[params.skills.list]]
+        skill = "HTML, CSS, JS & JQuery"
+        level = "80%"
+        icon = "fa-html5"
+
+        [[params.skills.list]]
+        skill = "Python"
+        level = "65%"
+        icon = "fa-code"
+
+        [[params.skills.list]]
+        skill = "C, C++ & Rcpp"
+        level = "40%"
+        icon = "fa-fighter-jet"
+
+    # Portfolio 
+    [params.portfolio]
+    	enable = true
+        title = "Portfolio"
+        icon = "fa-dashboard"
+
+        [[params.portfolio.items]]
+        url = "http://localhost:1313/"
+        image = "paths.png"
+        title = "Attribution"
+        description = "Really just a test"
+        thumb = "003-timeline.png"
+        isfirst = "true"
+
+        [[params.portfolio.items]]
+        url = "http://localhost:1313/"
+        image = "profit.png"
+        title = "Profitability"
+        description = "Really just a test"
+        thumb = "001-analytics-2.png"
+        isfirst = "false"
+
+        [[params.portfolio.items]]
+        url = "http://localhost:1313/"
+        image = "funnels.png"
+        title = "Funnels"
+        description = "<b>You can list your side projects or open source libraries in this section.</b> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus"
+        thumb = "004-analytics.png"
+        isfirst = "false"
+
+        [[params.portfolio.items]]
+        url = "http://localhost:1313/"
+        image = "testing.png"
+        title = "Testing"
+        description = "Really just a test"
+        thumb = "001-flask.png"
+        isfirst = "true"
+
+        [[params.portfolio.items]]
+        url = "http://localhost:1313/"
+        image = "Rlogo.png"
+        title = "R Packages"
+        description = "Really just a test"
+        thumb = "003-bookshelf.png"
+        isfirst = "false"
+
+        [[params.portfolio.items]]
+        url = "http://localhost:1313/"
+        image = "training.png"
+        title = "Training"
+        description = "Really just a test"
+        thumb = "002-blackboard.png"
+        isfirst = "false"
+
+    # Footer section
+
+    # The original template is released under the Creative Commons Attribution 3.0 License.
+    # Please keep the original attribution link when using for your own project.
+    # If you'd like to use the template without the attribution,
+    # you can check out other license options via template author's website: themes.3rdwavemedia.com
+    # 
+    # As for Hugo port you may rewrite the "Ported for..." line with setting your name below.
+
+    [params.footer]
+        copyright = "Lorenzo Rossi"
