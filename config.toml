@@ -3,8 +3,9 @@
 languageCode = "en-us"
 title = "Lorenzo Rossi Resume"
 theme = "hugo-orbit-theme"
-googleAnalytics = "UA-XXXXXXX-Y"
+googleAnalytics = "UA-99236014-1"
 publishDir = "."
+
 
 # Do not build files for websites. Need them? Set to false
 disableRSS = true
