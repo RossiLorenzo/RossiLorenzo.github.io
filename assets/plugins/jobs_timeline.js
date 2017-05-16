@@ -61,12 +61,16 @@ function timelineLabelColor() {
 			var color = $(this).css('fill').replace(')', ', 0.2)').replace('rgb', 'rgba');
 			$(this).css('opacity', 1);
 			$($('.jobs').get(index)).css({'background-color' : color})
-			_gaq.push(['_trackEvent', 'ExperienceTimeline', 'MouseEnter', 'Index']);
+			_gaq.push(['_trackEvent', 'ExperienceTimeline', 'MouseEnter', index]);
 		},
 		mouseout: function () {
 			var index = $(this).attr('id').replace('timelineItem_', '').replace('_0', '');
 			$(this).css('opacity', 0.4);
 			$($('.jobs').get(index)).css('background-color', 'white')
+		},
+		click: function () {
+			var index = $(this).attr('id').replace('timelineItem_', '').replace('_0', '');
+			_gaq.push(['_trackEvent', 'ExperienceTimeline', 'Click', index]);
 		}
 	});
 
@@ -77,11 +81,16 @@ function timelineLabelColor() {
 			var color = $($('#timeline').find('rect').get(index)).css('fill').replace(')', ', 0.2)').replace('rgb', 'rgba');
 			$($('#timeline').find('rect').get(index)).css('opacity', 1)
 			$(this).css('background-color', color)
+			_gaq.push(['_trackEvent', 'ExperienceList', 'MouseEnter', index]);
 		},
 		mouseleave: function () {
 			var index = $(this).attr('id').replace('timelineItem_', '').replace('_0', '');
 			$($('#timeline').find('rect').get(index)).css('opacity', 0.4)
 			$(this).css('background-color', 'white')
+		},
+		click: function () {
+			var index = $(this).attr('id');
+			_gaq.push(['_trackEvent', 'ExperienceList', 'Click', index]);
 		}
 	});
 }
