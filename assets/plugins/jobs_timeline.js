@@ -61,6 +61,7 @@ function timelineLabelColor() {
 			var color = $(this).css('fill').replace(')', ', 0.2)').replace('rgb', 'rgba');
 			$(this).css('opacity', 1);
 			$($('.jobs').get(index)).css({'background-color' : color})
+			_gaq.push(['_trackEvent', 'ExperienceTimeline', 'MouseEnter', 'Index']);
 		},
 		mouseout: function () {
 			var index = $(this).attr('id').replace('timelineItem_', '').replace('_0', '');
