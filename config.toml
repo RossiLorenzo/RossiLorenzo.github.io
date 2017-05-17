@@ -15,8 +15,8 @@ disable404 = true
 [params]
 
 # Meta
-    description = "Hugo Responsive Resume/CV Theme for Developers"
-    author = "Pavel Kanyshev"
+    description = "R Developer and Data Scientist - Expert in digital marketing, attribution and measurement"
+    author = "Lorenzo Rossi"
 
 # Theme styles
 
@@ -191,7 +191,7 @@ disable404 = true
 
         [[params.skills.list]]
         skill = "R"
-        level = "98%"
+        level = "100%"
         icon = "fa-thumbs-up"
                 
         [[params.skills.list]]
@@ -228,6 +228,11 @@ disable404 = true
         skill = "C, C++ & Rcpp"
         level = "40%"
         icon = "fa-fighter-jet"
+
+        [[params.skills.list]]
+        skill = "Ruby"
+        level = "35%"
+        icon = "fa-diamond"
 
     # Portfolio 
     [params.portfolio]
