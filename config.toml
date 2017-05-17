@@ -1,7 +1,7 @@
 # Page settings
 
 languageCode = "en-us"
-title = "Lorenzo Rossi Resume"
+title = "Lorenzo Rossi's Resume"
 theme = "hugo-orbit-theme"
 LRgoogleAnalytics = "UA-99236014-1"
 publishDir = "."
@@ -15,7 +15,7 @@ disable404 = true
 [params]
 
 # Meta
-    description = "R Developer and Data Scientist - Expert in digital marketing, attribution and measurement"
+    description = "R Developer and Data Scientist - Expert in digital marketing, attribution and omni-channel measurement"
     author = "Lorenzo Rossi"
 
 # Theme styles
@@ -58,6 +58,13 @@ disable404 = true
         icon = "fa-twitter"
         url = "//twitter.com/lorenzorossi_88"
         title = "@lorenzorossi_88"
+
+        [[params.contact.list]]
+        class = "stackoverflow"
+        icon = "fa-stack-overflow "
+        url = "//stackoverflow.com/users/1252250/lorenzo-rossi"
+        title = "lorenzo-rossi"
+        
 
     # Languages section
     [params.languages]
