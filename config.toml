@@ -130,14 +130,14 @@ disable404 = true
         enable = true
         icon = "fa-user"
         title = "Career Profile"
-        summary = "Experienced data scientist with a demonstrated history of working in the digital marketing and advertisement industry, with a special focus on attribution modeling and measurement.<br><br>Skilled in R, SQL, statistics and machine learning on large datasets, extracting useful, actionable insights and presenting those insights to stakeholders with 'business friendly' presentations, dashboards and automated reports."
+        summary = "Experienced data scientist with a demonstrated history of working in the digital marketing and advertisement industry, with a special focus on attribution modelling and measurement.<br><br>Skilled in R, SQL, statistics and machine learning on large datasets, extracting useful, actionable insights and presenting those insights to stakeholders with 'business friendly' presentations, dashboards and automated reports."
 
     # Experiences section
     [params.experiences]
         enable = true
         icon = "fa-briefcase"
         title = "Work Experience"
-        intro = "I joined Forward3D, straight after finishing my M.Sc., as the first hire into the team which has since developed into the Data Science department. During those years I contributed in growing the offer, the visibility inside the company and the size of the Data Science team, leading the technical capabilities forward and driving innovation and product development.<br><br>An example of this is the dynamic weighting attribution model that I ideated, implemented and productized and that is currently an unique selling point for the company and it is consistently pitched and used for all the Forward3D clients."
+        intro = "I joined Forward3D, straight after finishing my M.Sc., as the first hire into the team, which has since developed into the Data Science department. During those years I contributed in growing the offer, the visibility inside the company and the size of the Data Science team, leading the technical capabilities forward and driving innovation and product development.<br><br>An example of this is the dynamic weighting attribution model that I ideated, implemented and productized and that is currently a unique selling point for the company and it is consistently pitched and used for all the Forward3D clients."
 
         [[params.jobs.list]]
         position = "Principal Data Scientist"
