@@ -82,7 +82,6 @@
 	// Adding items
 
 	Timeline.prototype.addCategory = function (categoryData) {
-		console.log("addCategory", categoryData);
 
 		var category = {
 			name: categoryData.name,
@@ -239,7 +238,6 @@
 	};
 
 	Timeline.prototype.drawSpan = function (span) {
-		console.log("drawSpan", span);
 
 		var startX = this.getX(span.start);
 		var endX = this.getX(span.end);

@@ -1,7 +1,16 @@
 // Create data - this will have to become dynamic
-var dates = ["09/01/2013", "03/01/2014", "01/01/2015", "10/01/2015", "05/01/2017"];
-var roles = ["Junior Data Analyst", "Data Scientist", "Senior Data Scientist", "Data Science Consultant", "Principal Data Scientist"];
-var colors = ["#1E6262", "#1DBA90", "#4CD3CC", "#A2BCE0", "6C92A3"];
+var dates = [];
+$('.jobs .time').each(function(){ 
+	dates.unshift($(this).attr("format_dates"));
+})
+var roles = [];
+$('.job-title').each(function(){
+  roles.unshift($(this).text());
+})
+var colors = [];
+$('.jobs').each(function(){
+  colors.unshift($(this).attr("color"));
+})
 
 // Reshape data into one object
 var labelColorTestData = [];
